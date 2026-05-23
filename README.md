@@ -1,13 +1,13 @@
 AWS Cloud Misconfiguration Scanner
 > Python-based security scanner that checks AWS environments for common misconfigurations across IAM, S3, EC2, and CloudTrail. Includes demo mode — no AWS account required to run.
 ---
-What It Does
+What It Does: 
 This tool scans an AWS environment and identifies security misconfigurations that are commonly exploited in real-world breaches. Each finding includes a severity rating and concrete remediation step.
 Supports two modes:
 Demo mode — runs with realistic sample data, no AWS account needed
 Live mode — connects to a real AWS account via boto3 and scans live resources
 ---
-Skills Demonstrated
+Skills Demonstrated: 
 Area	Detail
 Cloud Security	AWS IAM, S3, EC2, CloudTrail security controls
 Python	boto3 SDK, CLI tooling, JSON/Markdown report generation
@@ -15,7 +15,7 @@ Security Engineering	Misconfiguration detection, severity rating, remediation ad
 CIS Benchmarks	Checks aligned to CIS AWS Foundations Benchmark
 Threat Awareness	Each check maps to a real-world attack vector
 ---
-Checks Covered
+Checks Covered: 
 IAM
 Check	Severity
 Root account MFA enabled	Critical
