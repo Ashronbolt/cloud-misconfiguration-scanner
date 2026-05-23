@@ -15,7 +15,7 @@ DEMO_MODE = not bool(os.environ.get("AWS_ACCESS_KEY_ID"))
 
 
 # --------------------------------------------------------------------------
-# DEMO DATA — realistic findings for portfolio demonstration
+# DEMO DATA 
 # --------------------------------------------------------------------------
 
 DEMO_FINDINGS = [
