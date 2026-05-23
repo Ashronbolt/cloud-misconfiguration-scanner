@@ -1,9 +1,9 @@
 AWS Cloud Misconfiguration Scan Report
-Generated: 23 May 2025 14:45
+Generated: 23 May 2025 
 Mode: `DEMO`
 Overall Risk Rating: `Critical`
 ---
-Summary
+Summary: 
 Metric	Count
 Total Checks	15
 Failed	10
@@ -12,7 +12,7 @@ Critical Findings	4
 High Findings	3
 Medium Findings	3
 ---
-Findings
+Findings: 
 ❌ [Critical] S3 — Public Bucket Access
 Resource: `s3://company-backup-prod`
 Detail: Bucket has public read access enabled. Sensitive data may be exposed to the internet.
@@ -54,7 +54,7 @@ Resource: `arn:aws:cloudtrail:eu-west-2:123456789012:trail/mgmt-trail`
 Detail: Log file integrity validation is not enabled. Logs could be tampered with without detection.
 Remediation: Enable log file validation on CloudTrail to detect any tampering with log files.
 ---
-Passed Checks
+Passed Checks: 
 ✅ S3 — Server-Side Encryption (`s3://static-assets-web`)
 ✅ IAM — Console Users MFA (`arn:aws:iam::123456789012:user/dev-deploy`)
 ✅ CloudTrail — CloudTrail Enabled (`arn:aws:cloudtrail:eu-west-2:123456789012:trail/mgmt-trail`)
