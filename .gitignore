@@ -1,0 +1,29 @@
+# AWS credentials — NEVER commit these
+.env
+*.env
+credentials
+aws_credentials.json
+secrets.py
+config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
